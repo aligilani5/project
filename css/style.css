@@ -264,7 +264,11 @@ footer ul li a:hover{
 @media screen and (max-width:1024px){
     .img-cont{
         width: 100%;
-        height: 910px;
+        height: 410px;
+    }
+    .about-img{
+        width: 100%;
+        height: 650px;
     }
     .social{
         margin-right: 16px;
@@ -310,6 +314,10 @@ footer ul li a:hover{
         width: 100%;
         height: 890px;
     }
+    .about-img{
+        width: 100%;
+        height: 650px;
+    }
     .in{
         margin: 22px 7px 0px -48px;
     }
@@ -351,6 +359,10 @@ footer ul li a:hover{
         width: 100%;
         height: 770px;
     }
+    .about-img{
+        width: 100%;
+        height: 650px;
+    }
     .in{
         margin: 20px 60px 0px -19px;
     }
@@ -369,6 +381,10 @@ footer ul li a:hover{
     .img-cont{
         width: 100%;
         height: 670px;
+    }
+    .about-img{
+        width: 100%;
+        height: 550px;
     }
     footer{
         height: 450px;
@@ -406,6 +422,10 @@ footer ul li a:hover{
         width: 100%;
         height: 730px;
     }
+    .about-img{
+        width: 100%;
+        height: 650px;
+    }
     footer{
         height: 500px;
     }
@@ -437,6 +457,14 @@ footer ul li a:hover{
     .bt{
         height: 40px;
         font-size: 14px;
+    }
+    .about-img{
+        width: 100%;
+        height: 350px;
+    }
+    .img-cont{
+        width: 100%;
+        height: 250px;
     }
     footer{
         height: 450px;
@@ -488,6 +516,10 @@ footer ul li a:hover{
     .img-cont{
         width: 100%;
         height: 700px;
+    }
+    .about-img{
+        width: 100%;
+        height: 550px;
     }
 }
 @media screen and (max-width: 584px){
@@ -544,6 +576,10 @@ footer ul li a:hover{
         width: 100%;
         height: 460px;
     }
+    .about-img{
+        width: 100%;
+        height: 400px;
+    }
     .social{
         margin: 8px 70px 0px 190px;
     }
@@ -557,14 +593,6 @@ footer ul li a:hover{
 }
 @media screen and (max-width:500px){
     .hn{
-        width: 230px;
-        height: 200px;
-    }
-    .kl{
-        width: 230px;
-        height: 200px;
-    }
-    .mh{
         width: 230px;
         height: 200px;
     }
@@ -660,7 +688,11 @@ footer ul li a:hover{
     }
     .img-cont{
         width: 100%;
-        height: 580px;
+        height: 480px;
+    }
+    .about-img{
+        width: 100%;
+        height: 450px;
     }
     footer{
         width: 100%;
@@ -753,6 +785,10 @@ footer ul li a:hover{
         width: 100%;
         height: 410px;
     }
+    .about-img{
+        width: 100%;
+        height: 400px;
+    }
     footer{
         width: 100%;
         height: 580px;
@@ -804,7 +840,7 @@ footer ul li a:hover{
     }
     .img-cont{
         width: 100%;
-        height: 540px;
+        height: 340px;
     }
     footer{
         width: 100%;
@@ -852,6 +888,10 @@ footer ul li a:hover{
     .img-cont{
         width: 100%;
         height: 420px;
+    }
+    .about-img{
+        width: 100%;
+        height: 350px;
     }
     footer{
         width: 100%;
