@@ -45,20 +45,43 @@
                   </li>
                   <?php
                 } else {
-                  ?>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="css/profile.jpg" class = "profile" alt = "Profile-Image">
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="profile.php">Profile</a>
-                        <a class="dropdown-item" href="orders.php">Orders</a>
-                        <a class="dropdown-item" href="cart.php">My Cart</a>
-                        <hr>
-                        <a class="dropdown-item" href="logout.php">Logout</a>
-                      </div>
-                    </li>
-                  <?php
+                  require 'db.php';
+                  $user_img = "select image from user_login where Id = '$_SESSION[ID]' ";
+                  $query = mysqli_query($conn,$user_img);
+                  $res = mysqli_num_rows($query);
+                  if($res > 0){
+                    while($data = mysqli_fetch_assoc($query)){
+                      ?>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="css/<?php echo $data['image']; ?>" class = "profile" alt = "Profile-Image">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="profile.php">Profile</a>
+                          <a class="dropdown-item" href="orders.php">Orders</a>
+                          <a class="dropdown-item" href="cart.php">My Cart</a>
+                          <hr>
+                          <a class="dropdown-item" href="logout.php">Logout</a>
+                        </div>
+                      </li>
+                      <?php
+                    }
+                  } else {
+                    ?>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="css/profile.jpg" class = "profile" alt = "Profile-Image">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="profile.php">Profile</a>
+                          <a class="dropdown-item" href="orders.php">Orders</a>
+                          <a class="dropdown-item" href="cart.php">My Cart</a>
+                          <hr>
+                          <a class="dropdown-item" href="logout.php">Logout</a>
+                        </div>
+                      </li>
+                    <?php
+                  }
                 }
               ?>
 
