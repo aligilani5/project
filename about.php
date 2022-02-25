@@ -6,7 +6,10 @@
     header("location:login.php");
   }
 ?>
-<?php include 'includes/header.php'; ?>
+<?php 
+  $title = 'About Us';
+  include 'includes/header.php'; 
+?>
 <div class="container-fluid about-img">
 </div>  
 <br>

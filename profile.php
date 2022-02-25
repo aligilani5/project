@@ -6,7 +6,10 @@
         header("location: login.php");
     }
 ?>
-<?php require 'includes/header.php';?>
+<?php 
+    $title = 'User Profile';
+    require 'includes/header.php';
+?>
 
 <div class="container">
     <div class="card-header pro" style = "background-color:royalblue;color:white;text-align:center;">

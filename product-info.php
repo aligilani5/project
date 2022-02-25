@@ -6,7 +6,10 @@
         header("location:login.php");
     }
 ?>
-<?php require 'includes/header.php';?>
+<?php 
+    $title = 'Product Info';
+    require 'includes/header.php';
+?>
 <div class="jumbotron" style = "margin: 101px 0px 0px 0px;">
     <h3 style = "color:white; text-align:center;">Product Info</h3>
 </div>

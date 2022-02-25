@@ -1,7 +1,10 @@
 <?php
   session_start();
 ?>
-<?php require 'includes/header.php';?>
+<?php 
+  $title = 'Home';
+  require 'includes/header.php';
+?>
 <div class="slider">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">

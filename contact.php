@@ -1,7 +1,10 @@
 <?php
     session_start();
 ?>
-<?php require 'includes/header.php'; ?>
+<?php 
+    $title = 'Contact Us';
+    require 'includes/header.php'; 
+?>
 <div class="container-fluid img-cont">
 </div>
 <br>

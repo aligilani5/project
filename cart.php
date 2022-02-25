@@ -6,7 +6,10 @@
         header("location: login.php");
     }
 ?>
-<?php require 'includes/header.php'; ?>
+<?php 
+    $title = 'My Cart';
+    require 'includes/header.php'; 
+?>
 
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class = "cart">
     <div class="card-header" style = "background-color:royalblue;color:white;text-align:center;" >

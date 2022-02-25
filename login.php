@@ -65,7 +65,10 @@
     }
   }
 ?>
-<?php require 'includes/login - header.php'?>
+<?php 
+  $title = 'Login';
+  require 'includes/login - header.php';  
+?>
 
 <div class="container-fluid">
   <form class = "form" method = "POST" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">

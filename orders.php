@@ -6,7 +6,10 @@
         header("location: login.php");
     }
 ?>
-<?php require 'includes/header.php';?>
+<?php 
+    $title = 'Orders';
+    require 'includes/header.php';
+?>
                 <div class="cart">
                     <div class="card-header" style = "background-color:royalblue;color:white;text-align:center;">
                         <h3 class="card-title">Orders</h3>
