@@ -10,7 +10,8 @@
   $title = 'About Us';
   include 'includes/header.php'; 
 ?>
-<div class="container-fluid about-img">
+<div class="container-fluid ">
+  <img src="css/about.jpg" class = "about-img" data-aos = "zoom-in-down">
 </div>  
 <br>
 <br>
@@ -28,15 +29,11 @@
 </div>
 <br>
 <br>
-<div class="container">
-  <hr>
-</div>
-<br><br>
 
 <div class="container text-center"></div>
-<div class="jumbotron">
-  <h3 style = "font-style:italic;text-align:center;color:white;">Our Aim</h3>
-  <p style = "font-size:16px;font-style:italic;text-align:center;color:white;">Our aim is to interact with our customers to manufacture high-quality products <br> for them at reasonable price</p>
+<div class="jumbotron aim" data-aos = "fade-in">
+  <h3>Our Aim</h3>
+  <p>Our aim is to interact with our customers to manufacture high-quality products <br> for them at reasonable price</p>
 </div>
 <br>
 <br>

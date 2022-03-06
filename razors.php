@@ -10,7 +10,7 @@
     $title = 'Products';
     require 'includes/header.php'; 
 ?>
-<div class="jumbotron" style = "margin: 101px 0px 0px 0px;">
+<div class="jumbotron pro_jumbo" data-aos = "zoom-in-down" style = "margin: 101px 0px 0px 0px;">
     <h3 style = "color:white; text-align:center;">Products / Razor</h3>
 </div>
 <div class="container mt-5">
@@ -23,7 +23,7 @@
         if($check > 0){
             while($data = mysqli_fetch_assoc($query)){
                 ?>
-                <div  style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
+                <div data-aos = "fade-in" style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
                     <div class="inner mt-5">
                     <a href="product-info.php?prod=<?php echo $data['Id'];?>">
                     <img class= "img-fluid hn" src="css/<?php echo $data['image']; ?>">

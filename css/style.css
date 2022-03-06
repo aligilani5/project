@@ -66,11 +66,16 @@
 .dropdown-menu .dropdown-item:hover{
     background-color: rgba(107, 104, 104, 0.534);
 }
-.jumbotron{
+.pro_jumbo{
     background-color: royalblue;
 }
+.jumbo{
+    height: 350px;
+    box-shadow: 2px 2px 35px gray;
+    background-image: linear-gradient(to bottom right, rgb(20, 14, 14), rgb(0, 174, 255));
+}
 .welcome{
-    margin-top: 5px;
+    margin-top: 65px;
     text-align: center;
     color: white;
     font-style: italic;
@@ -109,7 +114,6 @@
 .slider{
     width: 100%;
     margin: 100px 0px 0px 0px;
-    animation: slidein 3s 1 alternate;
 }
 .choose{
     margin-top: 2px;
@@ -168,23 +172,9 @@ footer ul li a:hover{
     color: white;
 }
 .about-img{
-    background-image: url('./about.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
     margin: 100px 0px 0px 0px;
     width: 100%;
     height: 450px;
-    animation: slidein 3s 1 alternate;
-}
-@keyframes slidein{
-    from{
-        margin-left: 100%;
-    }
-    to{
-        margin-left: 0%;
-    }
 }
 .content
 {
@@ -199,14 +189,21 @@ footer ul li a:hover{
     margin-left: 3%;
 }
 .img-cont{
-    background-image: url('./contact_4.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
     margin: 100px 0px 0px 0px;
     width: 100%;
     height: 460px;
-    animation: slidein 3s 1 alternate;
+}
+.aim h3{
+    text-align: center;
+    color: white;
+    margin-top: 45px;
+    font-style: italic;
+}
+.aim p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-style: italic;
 }
 .info
 {
@@ -224,6 +221,10 @@ footer ul li a:hover{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .txt{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.txt a{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
@@ -580,6 +581,9 @@ footer ul li a:hover{
         width: 100%;
         height: 400px;
     }
+    .aim h3{
+        margin-top: 65px;
+    }
     .social{
         margin: 8px 70px 0px 190px;
     }
@@ -683,6 +687,12 @@ footer ul li a:hover{
         width: 230px;
         height: 200px;
     }
+    .welcome{
+        margin-top: 100px;
+    }
+    .choose{
+        margin-top: 30px;
+    }
     .bt{
         width: 60%;
     }
@@ -693,6 +703,12 @@ footer ul li a:hover{
     .about-img{
         width: 100%;
         height: 450px;
+    }
+    .aim{
+        margin-top: 100px;
+    }
+    .aim h3{
+        margin-top: 65px;
     }
     footer{
         width: 100%;
@@ -778,6 +794,9 @@ footer ul li a:hover{
         width: 230px;
         height: 200px;
     }
+    .welcome{
+        margin-top: 100px;
+    }
     .bt{
         width: 65%;
     }
@@ -788,6 +807,12 @@ footer ul li a:hover{
     .about-img{
         width: 100%;
         height: 400px;
+    }
+    .aim{
+        margin-top: 130px;
+    }
+    .aim h3{
+        margin-top: 65px;
     }
     footer{
         width: 100%;
@@ -834,6 +859,9 @@ footer ul li a:hover{
     .hn{
         width: 230px;
         height: 200px;
+    }
+    .choose{
+        margin-top: 20px;
     }
     .bt{
         width: 67%;
@@ -889,9 +917,18 @@ footer ul li a:hover{
         width: 100%;
         height: 420px;
     }
+    .aim{
+        margin-top: 100px;
+    }
+    .aim h3{
+        margin-top: 65px;
+    }
     .about-img{
         width: 100%;
         height: 350px;
+    }
+    .welcome{
+        margin-top: 95px;
     }
     footer{
         width: 100%;
@@ -941,6 +978,12 @@ footer ul li a:hover{
     .hn{
         width: 230px;
         height: 200px;
+    }
+    .welcome{
+        margin-top: 75px;
+    }
+    .aim{
+        margin-top: 120px;
     }
     .img-cont{
         width: 100%;
@@ -1028,6 +1071,9 @@ footer ul li a:hover{
     .cd{
         width: 14rem;
         margin-left: 30px;
+    }
+    .aim{
+        margin-top: 180px;
     }
 
 }

@@ -5,26 +5,26 @@
   $title = 'Home';
   require 'includes/header.php';
 ?>
-<div class="slider">
+<div class="slider" data-aos = "fade-in">
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="css/set.jpg" alt="First slide">
+      <img class="d-block w-100" src="css/multi.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="css/sci.jpg" alt="Second slide">
+      <img class="d-block w-100" src="css/colored.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="css/raz.jpg" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="css/sci2.jpg" alt="Third slide">
+      <img class="d-block w-100" src="css/multi 2.jpg" alt="Third slide">
     </div>
   </div>
 </div>
 </div>
 
-<div class="jumbotron mt-5">
+<div class="jumbotron mt-5 jumbo" data-aos = "zoom-in-down">
   <div class="welcome">
     <h3>Welcome To Instruments</h3>
     <p>We are manufacturing Scissors & Razors</p>
@@ -46,7 +46,7 @@
     if($check > 0){
       while($data = mysqli_fetch_assoc($query)){
         ?>
-          <div  style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
+          <div  data-aos = "fade-in" style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
             <div class="inner mt-5">
               <a href="product-info.php?prod=<?php echo $data['Id'];?>">
               <img class= "img-fluid hn" src="css/<?php echo $data['image']; ?>">
@@ -79,7 +79,7 @@
     if($check > 0){
       while($data = mysqli_fetch_assoc($query)){
         ?>
-          <div  style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
+          <div  data-aos = "fade-in" style="font-family: Georgia, 'Times New Roman', Times, serif; ;font-size: large;" class="col-sm-3 text-center" >
             <div class="inner mt-5">
               <a href="product-info.php?prod=<?php echo $data['Id'];?>">
               <img class= "img-fluid hn" src="css/<?php echo $data['image']; ?>">
@@ -104,7 +104,7 @@
 </div>
 <br>
 <br>
-<div class="jumbotron">
+<div class="jumbotron jumbo"  data-aos = "zoom-in-down">
   <div class="choose">
     <h3>Why choose us?</h3>
     <ul>

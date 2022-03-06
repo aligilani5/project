@@ -38,6 +38,13 @@
     <p style="color:white; font-style:Italic;text-align:center;font-size:18px;">Copyright &copy Instruments <?php echo date("Y");?>. All rights reserved</p>
   </div>
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 300,
+      duration: 1000,
+    });
+  </script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
