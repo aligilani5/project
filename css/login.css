@@ -1,12 +1,19 @@
-body{
-    background-color: rgba(0, 0, 0, 0.671);
-}
 .navbar-light
 {
     width: 100%;
     height: 101px;
     background-color: rgba(10, 5, 5, 0.911);
+    animation: top-bottom 3s 1s alternate;
 }
+@keyframes top-bottom{
+    from{
+        height:0%;
+    }
+    to{
+        height:15%;
+    }
+}
+
 .navbar-light .navbar-brand
 {
     font-size: 23px;
@@ -21,20 +28,11 @@ body{
     color: white;
 }
 .form{
-    background-color: rgba(128, 128, 128, 0.349);
+    background-color: rgba(34, 31, 31, 0.253);
     margin: 157px 0px 30px 460px;
     width: 397px;
     height: 400px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
-    animation: top-bottom 3s 1s alternate;
-}
-@keyframes top-bottom{
-    from{
-        height:0px;
-    }
-    to{
-        height:400px;
-    }
 }
 .logo{
     height: 90px;

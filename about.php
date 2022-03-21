@@ -1,11 +1,6 @@
 <?php
   session_start();
 ?>
-<?php
-  if(!isset( $_SESSION['user'] ) ){
-    header("location:login.php");
-  }
-?>
 <?php 
   $title = 'About Us';
   include 'includes/header.php'; 

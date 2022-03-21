@@ -10,7 +10,7 @@
     $title = 'Product Info';
     require 'includes/header.php';
 ?>
-<div class="jumbotron" style = "margin: 101px 0px 0px 0px;">
+<div class="jumbotron aim" style = "margin: 101px 0px 0px 0px;">
     <h3 style = "color:white; text-align:center;">Product Info</h3>
 </div>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" class = "info">
@@ -85,15 +85,15 @@
                 $_SESSION['cart'][$add] = $items;
                 ?>
                     <script>
-                        alert("Item Has Been Added To Cart! Visit My Cart From Profile To See!");
-                        window.location = "";
+                        alert("Item Has Been Added To Cart!");
+                        window.location = "cart.php";
                     </script>
                 <?php
             } else {
                 ?>
                     <script>
                         alert("Item Already Added To Cart!");
-                        window.location = "";
+                        window.location = "cart.php";
                     </script>
                 <?php
             }

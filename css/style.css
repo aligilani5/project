@@ -67,7 +67,7 @@
     background-color: rgba(107, 104, 104, 0.534);
 }
 .pro_jumbo{
-    background-color: royalblue;
+    background-image: linear-gradient(to bottom right, rgb(20, 14, 14), rgb(0, 174, 255));
 }
 .jumbo{
     height: 350px;
@@ -192,6 +192,9 @@ footer ul li a:hover{
     margin: 100px 0px 0px 0px;
     width: 100%;
     height: 460px;
+}
+.aim{
+    background-image: linear-gradient(to bottom right, rgb(20, 14, 14), rgb(0, 174, 255));
 }
 .aim h3{
     text-align: center;
