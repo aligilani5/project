@@ -5,8 +5,14 @@
   $title = 'Home';
   require 'includes/header.php';
 ?>
-<div class="slider" data-aos = "fade-in">
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div class="home-bg-img" data-aos = "fade-in">
+  <div class = "home-img-text">
+    <p class = "home-img-text-style" data-aos = "fade-in">Manufacturing products with finest quality...</p>
+    <a href="scissors.php">
+      <button type = "button" class = "btn btn-info">Our Products...</button>
+    </a>
+  </div>
+<!-- <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="css/multi.jpg" alt="First slide">
@@ -21,12 +27,13 @@
       <img class="d-block w-100" src="css/multi 2.jpg" alt="Third slide">
     </div>
   </div>
-</div>
+</div> -->
 </div>
 
 <div class="jumbotron mt-5 jumbo" data-aos = "zoom-in-down">
   <div class="welcome">
-    <h3>Welcome To Instruments</h3>
+    <img src="css/My project.png" class = "service-img">
+    <h3>Our Services</h3>
     <p>We are manufacturing Scissors & Razors</p>
   </div>
 </div>   

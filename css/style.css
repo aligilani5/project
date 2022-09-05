@@ -71,17 +71,20 @@
 }
 .jumbo{
     height: 350px;
-    box-shadow: 2px 2px 35px gray;
-    background-image: linear-gradient(to bottom right, rgb(20, 14, 14), rgb(0, 174, 255));
+    background-color: rgba(6, 3, 36, 0.805);
+}
+.service-img{
+    height: 100px;
+    width: 100px;
 }
 .welcome{
-    margin-top: 65px;
+    margin-top: -35px;
     text-align: center;
     color: white;
     font-style: italic;
 }
 .welcome p{
-    margin-top: 25px;
+    margin-top: 2px;
     font-weight: 600;
 }
 .inner {
@@ -111,10 +114,27 @@
 .carousel-item img{
     height: 450px;
 }
-.slider{
+.home-bg-img{
+    background-image: url('./multi 2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-top: 100px;
+}
+.home-img-text{
+    background-color: rgba(47, 45, 45, 0.732);
+    padding: 233px;
+}
+.home-img-text-style{
+    color: coral;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .slider{
     width: 100%;
     margin: 100px 0px 0px 0px;
-}
+} */
 .choose{
     margin-top: 2px;
     text-align: center;
